@@ -1,8 +1,3 @@
-Here is the updated README.md with the corrected repository name (`hybrid-memetic-framework-threat-aware`) throughout:
-
----
-
-```markdown
 # A Hybrid Memetic Framework with Threat-Aware Evasion for Container Truck Routing in High-Risk Environments
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -314,16 +309,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 📞 Contact
 - **Lead Researcher**: Yves Ndikuriyo - [yvesndikuriyo@csu.edu.cn](mailto:yvesndikuriyo@csu.edu.cn)
 - **Repository**: [https://github.com/YvesNDIKURIYO-2022/hybrid-memetic-framework-threat-aware](https://github.com/YvesNDIKURIYO-2022/hybrid-memetic-framework-threat-aware)
-```
-
----
-
-## Summary of Updates
-
-| Element | Updated Value |
-|:--------|:--------------|
-| Repository name in clone command | `hybrid-memetic-framework-threat-aware.git` |
-| Directory name | `hybrid-memetic-framework-threat-aware/` |
-| Repository URL | `https://github.com/YvesNDIKURIYO-2022/hybrid-memetic-framework-threat-aware` |
-| Project structure | Updated to match new repository name |
-| Tables S7 and S8 | Condensed for brevity with note about full CSV files |
