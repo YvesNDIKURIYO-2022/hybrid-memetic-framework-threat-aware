@@ -11,7 +11,6 @@ This repository serves as the **official code and data supplement** for the manu
 
 > Ndikuriyo, Y., Zhang, Y., & Fom, D. D. (2026). *A Hybrid Memetic Framework with Threat-Aware Evasion for Container Truck Routing in High-Risk Environments.*
 
----
 
 ## 🎯 Key Features
 
@@ -21,7 +20,6 @@ This repository serves as the **official code and data supplement** for the manu
 - **Comprehensive Benchmarking**: Validated on modified Augerat instances, Set X (Uchoa et al., 2017), and Set XL (Queiroga et al., 2026).
 - **Real-World Validation**: East African Community (EAC) corridor case study with 28 cities and 16 threat zones.
 
----
 
 ## 📊 Benchmark Algorithms
 
@@ -35,7 +33,6 @@ The proposed Hybrid Memetic Framework was evaluated against five established met
 | **Hybrid Cell-Wave** [16] | Spatiotemporal Routing | Test evasion operator vs. cell-based spatial methods |
 | **MA-PSO** [22] | Penalty-Based Swarm | Contrast proactive evasion vs. post-hoc penalty |
 
----
 
 ## 🚀 Algorithm Components
 
@@ -54,7 +51,6 @@ The proposed Hybrid Memetic Framework was evaluated against five established met
 - **Distance-Weighted Repulsion**: Stronger evasion when near threat zones; negligible when far.
 - **Static Threat Modeling**: Circular restricted zones with fixed centers and radii.
 
----
 
 ## 📊 Benchmark Instance Specifications
 
@@ -70,7 +66,6 @@ This section documents all benchmark instances used in the experimental evaluati
 | A-n53-k7 | 34 | (24, 63) | 100 | 5 | 5 |
 | A-n80-k10 | 51 | (92, 92) | 100 | 7 | 6 |
 
----
 
 ### S2. Large-Scale Set X Instances (Uchoa et al., 2017)
 
@@ -87,7 +82,6 @@ This section documents all benchmark instances used in the experimental evaluati
 | X-n800-k12 | 799 | 12 | 10,000 | 642,510 | Large |
 | X-n1000-k12 | 999 | 12 | 10,000 | 812,410 | Large |
 
----
 
 ### S3. Ultra-Large Set XL Instances (Queiroga et al., 2026)
 
@@ -137,7 +131,6 @@ This section documents all benchmark instances used in the experimental evaluati
 | XL-n8766-k1032 | 8,765 | 1,032 | 637 | 906,406 | Extra-Large |
 | XL-n10001-k1570 | 10,000 | 1,570 | 479 | 2,333,757 | Extra-Large |
 
----
 
 ### S4. Threat Zone Configuration
 
@@ -156,7 +149,6 @@ This section documents all benchmark instances used in the experimental evaluati
 | T9 | (0.50, 0.80) | 0.06 | Environmental protection |
 | T10 | (0.35, 0.65) | 0.05 | Border checkpoint |
 
----
 
 ### S5. East African Community Case Study Data
 
@@ -193,8 +185,6 @@ This section documents all benchmark instances used in the experimental evaluati
 
 *Full 16-zone dataset available in `/data/east_africa/threat_zones.csv`*
 
----
-
 ## 📈 Performance Highlights
 
 | Metric | Result |
@@ -205,7 +195,6 @@ This section documents all benchmark instances used in the experimental evaluati
 | Mean Cost Reduction | **20.85% lower** than second-best algorithm |
 | Statistical Significance | p < 0.001 (Kruskal-Wallis H-test) |
 
----
 
 ## 🛠️ Installation & Requirements
 
@@ -221,7 +210,6 @@ cd hybrid-memetic-framework-threat-aware
 pip install -r requirements.txt
 ```
 
----
 
 ## 💻 Usage
 
@@ -247,7 +235,6 @@ solution = framework.solve(problem)
 solution.visualize_routes()
 ```
 
----
 
 ## 📁 Project Structure
 ```
@@ -276,7 +263,6 @@ hybrid-memetic-framework-threat-aware/
 └── README.md
 ```
 
----
 
 ## 🎓 Citation
 
@@ -291,20 +277,17 @@ hybrid-memetic-framework-threat-aware/
 }
 ```
 
----
 
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
----
 
 ## 👥 Authors
 - **Yves Ndikuriyo** - Lead Researcher & Algorithm Development
 - **Yinggui Zhang** - Research Supervision & Methodology
 - **Dung Davou Fom** - Experimental Analysis & Validation
 
----
 
 ## 📞 Contact
 - **Lead Researcher**: Yves Ndikuriyo - [yvesndikuriyo@csu.edu.cn](mailto:yvesndikuriyo@csu.edu.cn)
