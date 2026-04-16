@@ -1,0 +1,77 @@
+PROBLEM NAME: Threat-Aware A-n80-k10
+SOURCE: Modified from Augerat et al. Set A
+DESCRIPTION: Capacitated Vehicle Routing Problem with 51 customers, 7 vehicles, and 6 threat zones
+CAPACITY: 100
+MAX VEHICLES: 7
+
+NODES:
+ID	X	Y	DEMAND	TYPE
+0	92	92	0	depot
+1	88	58	24	customer
+2	70	6	22	customer
+3	57	59	23	customer
+4	0	98	5	customer
+5	61	38	11	customer
+6	65	22	23	customer
+7	91	52	26	customer
+8	59	2	9	customer
+9	3	54	23	customer
+10	95	38	9	customer
+11	80	28	14	customer
+12	66	42	16	customer
+13	79	74	12	customer
+14	99	25	2	customer
+15	20	43	2	customer
+16	40	3	6	customer
+17	50	42	20	customer
+18	97	0	26	customer
+19	21	19	12	customer
+20	36	21	15	customer
+21	100	61	13	customer
+22	11	85	26	customer
+23	69	35	17	customer
+24	69	22	7	customer
+25	29	35	12	customer
+26	14	9	4	customer
+27	50	33	4	customer
+28	89	17	20	customer
+29	57	44	10	customer
+30	60	25	9	customer
+31	48	42	2	customer
+32	17	93	9	customer
+33	21	50	1	customer
+34	77	18	2	customer
+35	2	4	2	customer
+36	63	83	12	customer
+37	68	6	14	customer
+38	41	95	23	customer
+39	48	54	21	customer
+40	98	73	13	customer
+41	26	38	13	customer
+42	69	76	23	customer
+43	40	1	3	customer
+44	65	41	6	customer
+45	14	86	23	customer
+46	32	39	11	customer
+47	14	24	2	customer
+48	96	5	7	customer
+49	82	98	13	customer
+50	23	85	10	customer
+51	63	69	3	customer
+52	63	83	6	customer
+
+THREAT ZONES:
+ID	CENTER_X	CENTER_Y	RADIUS	DESCRIPTION
+1	30	70	3	Northwestern corridor bridge/tunnel closure
+2	60	20	3	Southeastern sector widespread disruption
+3	40	40	3	Central bottleneck forcing major detours
+4	15	15	3	Southwestern remote area access point closure
+5	10	90	3	Extreme northwestern road collapse simulation
+6	90	10	3	Southeastern corner symmetric challenge zone
+
+METADATA:
+TOTAL CUSTOMERS: 52
+TOTAL DEMAND: 699
+MIN VEHICLES REQUIRED: 7
+THREAT ZONE RADIUS: 3
+COORDINATE RANGE: X_MIN=0, X_MAX=100, Y_MIN=0, Y_MAX=98

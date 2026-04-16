@@ -1,0 +1,58 @@
+PROBLEM NAME: Threat-Aware A-n53-k7
+SOURCE: Modified from Augerat et al. Set A
+DESCRIPTION: Capacitated Vehicle Routing Problem with 33 customers, 5 vehicles, and 5 threat zones
+CAPACITY: 100
+MAX VEHICLES: 5
+
+NODES:
+ID	X	Y	DEMAND	TYPE
+0	24	63	0	depot
+1	35	60	2	customer
+2	79	46	12	customer
+3	3	45	14	customer
+4	42	50	2	customer
+5	3	40	17	customer
+6	29	96	20	customer
+7	47	30	2	customer
+8	54	77	26	customer
+9	36	30	7	customer
+10	83	86	24	customer
+11	30	6	23	customer
+12	55	29	13	customer
+13	13	2	25	customer
+14	1	19	20	customer
+15	98	1	3	customer
+16	75	10	18	customer
+17	39	23	23	customer
+18	62	91	6	customer
+19	96	9	2	customer
+20	27	87	13	customer
+21	14	16	22	customer
+22	52	49	3	customer
+23	95	21	6	customer
+24	30	6	7	customer
+25	18	40	1	customer
+26	82	90	18	customer
+27	50	79	18	customer
+28	48	49	10	customer
+29	82	73	2	customer
+30	64	62	9	customer
+31	34	78	10	customer
+32	83	6	8	customer
+33	3	77	30	customer
+34	18	8	16	customer
+
+THREAT ZONES:
+ID	CENTER_X	CENTER_Y	RADIUS	DESCRIPTION
+1	60	80	3	Northern customer cluster access disruption
+2	60	20	3	Southeastern route blockage
+3	15	70	3	Western natural barrier simulation
+4	25	25	3	Central-southern detour requirement zone
+5	80	60	3	Northeastern logistical bottleneck
+
+METADATA:
+TOTAL CUSTOMERS: 34
+TOTAL DEMAND: 461
+MIN VEHICLES REQUIRED: 5
+THREAT ZONE RADIUS: 3
+COORDINATE RANGE: X_MIN=1, X_MAX=98, Y_MIN=1, Y_MAX=96

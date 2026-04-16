@@ -1,0 +1,45 @@
+PROBLEM NAME: Threat-Aware A-n32-k5
+SOURCE: Modified from Augerat et al. Set A
+DESCRIPTION: Capacitated Vehicle Routing Problem with 21 customers, 3 vehicles, and 5 threat zones
+CAPACITY: 100
+MAX VEHICLES: 3
+
+NODES:
+ID	X	Y	DEMAND	TYPE
+0	82	76	0	depot
+1	96	44	19	customer
+2	50	5	21	customer
+3	49	8	6	customer
+4	13	7	19	customer
+5	29	89	7	customer
+6	58	30	12	customer
+7	84	39	16	customer
+8	14	24	6	customer
+9	2	39	16	customer
+10	3	82	8	customer
+11	5	74	14	customer
+12	61	50	21	customer
+13	50	30	16	customer
+14	13	40	3	customer
+15	90	60	22	customer
+16	91	90	18	customer
+17	25	17	19	customer
+18	67	64	1	customer
+19	70	14	24	customer
+20	36	82	8	customer
+21	41	94	5	customer
+
+THREAT ZONES:
+ID	CENTER_X	CENTER_Y	RADIUS	DESCRIPTION
+1	50	50	3	Central region blockage between depot and customer cluster
+2	60	80	3	Northern transit corridor closure
+3	40	15	3	Southwestern route disruption
+4	20	80	3	Northwestern bridge outage simulation
+5	90	30	3	Eastern artery construction zone
+
+METADATA:
+TOTAL CUSTOMERS: 21
+TOTAL DEMAND: 276
+MIN VEHICLES REQUIRED: 3
+THREAT ZONE RADIUS: 3
+COORDINATE RANGE: X_MIN=2, X_MAX=96, Y_MIN=5, Y_MAX=94
