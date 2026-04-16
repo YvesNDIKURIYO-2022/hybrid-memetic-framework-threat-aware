@@ -7,7 +7,6 @@
 """
 Threat-Aware Container Truck Routing Problem (CTRP) - WITH GUROBI BENCHMARK
 All algorithms now properly enforce customer coverage and feasibility.
-Updated for A-n80-k10 Instance
 
 Benchmark Algorithms:
 1. Gurobi (Commercial Solver) - Absolute optimality reference (limited scalability)
@@ -18,11 +17,6 @@ Benchmark Algorithms:
 6. MA-PSO (Marinakis et al., 2019) - Multi-adaptive particle swarm optimization
 7. Memetic Framework (Proposed) - Hybrid exploration-exploitation with threat evasion
 
-Key Fixes:
-1. Missing customer penalty added to all fitness functions
-2. Proper termination conditions with time and iteration limits
-3. Parameter scaling based on problem size (tuned on A-n46-k7)
-4. Gurobi integration for optimality benchmarking (will likely time out on this size)
 """
 
 import math
