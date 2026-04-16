@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr 14 01:06:20 2026
-
-@author: Ekenge_The_Scorpion
-"""
-
-"""
 Threat-Aware Container Truck Routing Problem (CTRP)
 LARGE-SCALE EXPERIMENTS - SET XL (Queiroga et al., 2026)
 Addressing Reviewer Comment 5: Instances from 1,000 to 10,000 customers
