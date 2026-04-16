@@ -1,0 +1,30 @@
+• DETAILED THREAT ZONE PARAMETERS
+Table S6: Complete list of the 16 threat zones, beyond just the center and radius
+
+THREAT ZONE NAME			TYPE		RISK LEVEL	CENTER LATITUDE	CENTER LONGITUDE	RADIUS (km)
+M23 Rebel Activity - Rutshuru Area	security	very_high	-1.4		28.8			80
+M23 Controlled Areas - Masisi		security	very_high	-1.6		29.2			60
+M23 Presence - Goma Perimeter		security	very_high	-1.68		29.22			40
+ADF Main Camps - Irumu Territory	security	very_high	1.2		29.8			120
+ADF Activity - Beni Territory		security	very_high	0.8		29.5			100
+ADF Stronghold - Mambasa Territory	security	very_high	1.0		29.3			90
+ADF Camps - Komanda Area		security	very_high	1.5		30.2			80
+M23-ADF Overlap - Lubero Territory	security	very_high	-1.2		28.6			70
+Joint M23-ADF Operations - Southern Beni	security	very_high	-0.8		29.0			90
+Lamu Corridor - ASWJ Militant Activity	security	high		-2.0		40.9			100
+Thika Road - Construction Delays	infrastructure	medium		-1.2		37.0			80
+Naivasha - Seasonal Flooding Zone	climate		medium		-0.8		36.3			50
+Central Tanzania - Drought-Prone Area	climate		medium		-6.5		36.0			70
+Tanga Corridor - Road Maintenance	infrastructure	medium		-5.0		39.0			60
+Rwanda-DRC Border - Bunagana Crossing	security	high		-1.2833		29.6167			40
+Rusizi-DRC Border town		security	high		-2.4833		28.9			40
+
+# ==================== THREAT ZONE CATEGORIES ====================
+M23 REBEL GROUP AREAS - NORTH KIVU (VERY HIGH RISK): 3 zones
+ADF PRIMARY CAMP LOCATIONS - ITURI & NORTH KIVU (EXTREME RISK): 4 zones
+AREAS OF FREQUENT M23-ADF OVERLAP (HIGHEST RISK): 2 zones
+NORTHERN CORRIDOR SECURITY THREATS: 3 zones
+CENTRAL CORRIDOR THREATS: 2 zones
+BORDER CROSSING HOTSPOTS: 2 zones
+
+TOTAL THREAT ZONES: 16

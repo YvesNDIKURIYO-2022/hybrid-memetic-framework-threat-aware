@@ -1,0 +1,34 @@
+S3. REAL-WORLD CASE STUDY: EXPANDED DATA AND RESULTS
+This section provides comprehensive geographical and threat data for the East African Community (EAC) case study, along with complete algorithmic results.
+
+• S3.1 EAC NETWORK NODE DATA
+Table S5: Complete list of the 28 urban nodes (Country, City, Node ID, Coordinates, Demand).
+
+NODE ID	CITY NAME		COUNTRY		LATITUDE	LONGITUDE	DEMAND (tons)
+0	Mombasa		Kenya		-4.05		39.67		0 (Depot)
+1	Nairobi		Kenya		-1.29		36.82		95
+2	Kisumu		Kenya		-0.10		34.75		62
+3	Nakuru		Kenya		-0.30		36.07		78
+4	Eldoret		Kenya		0.52		35.28		54
+5	Thika		Kenya		-1.04		37.08		41
+6	Malaba Border	Kenya		0.63		34.27		15
+7	Busia Border	Kenya		0.47		34.09		12
+8	Kampala		Uganda		0.35		32.58		120
+9	Jinja		Uganda		0.42		33.20		58
+10	Mbale		Uganda		1.08		34.18		45
+11	Gulu		Uganda		2.77		32.30		37
+12	Tororo		Uganda		0.69		34.18		28
+13	Kigali		Rwanda		-1.97		30.10		88
+14	Huye		Rwanda		-2.60		29.74		31
+15	Bujumbura	Burundi		-3.38		29.36		76
+16	Gitega		Burundi		-3.43		29.93		42
+17	Muyinga		Burundi		-2.85		30.34		29
+18	Dar es Salaam	Tanzania	-6.82		39.27		105
+19	Dodoma		Tanzania	-6.16		35.74		67
+20	Arusha		Tanzania	-3.37		36.68		59
+21	Mwanza		Tanzania	-2.52		32.90		71
+22	Tabora		Tanzania	-5.02		32.80		33
+23	Kigoma		Tanzania	-4.88		29.63		26
+24	Kasulu		Tanzania	-4.58		30.10		19
+-	Total Demand	-		-		-		1,118
+
