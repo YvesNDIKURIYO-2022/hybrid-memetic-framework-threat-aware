@@ -7,14 +7,8 @@
 """
 Threat-Aware Container Truck Routing Problem (CTRP)
 LARGE-SCALE EXPERIMENTS - SET X (Uchoa et al., 2017)
-Addressing Reviewer Comment 5: Instances from 100 to 1,000 customers
+Instances from 100 to 1,000 customers
 
-KEY FEATURES:
-1. Parameter scaling based on problem size (logarithmic for population, sqrt for iterations)
-2. Tuned parameters from A-n46-k7 hold-out instance
-3. Five benchmark algorithms as specified in experimental setup
-4. Proper termination with time and iteration limits
-5. Fair gap calculation: distance only vs known optimum (threat penalty reported separately)
 """
 
 import math
